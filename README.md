@@ -29,27 +29,14 @@ When executed, the script:
 5. Generates a subfolder `empirical` with the following structure:
 
 empirical/
-  ├── i_src/
-  ├── ii_utils/
-  ├── iii_logs/
-  ├── iv_static/
-  ├── v_notebooks/
-  ├── a_data/
-  └── b_tests/
+├── i_src/
+├── ii_utils/
+├── iii_logs/
+├── iv_static/
+├── v_notebooks/
+├── a_data/
+└── b_tests/
+
 6. Adds `__init__.py` to `i_src/` and `ii_utils/` to initialize Python packages
 7. Generates subfolders within the directory 'a_data': raw, processed, versions, final
-
-empirical/
-  ├── i_src/
-  ├── ii_utils/
-  ├── iii_logs/
-  ├── iv_static/
-  ├── v_notebooks/
-  ├── a_data/
-       ├── raw/
-       ├── processed/
-       ├── versions/
-       ├── final
-  └── b_tests/
-
 8. Once script is completed, its final output (stdout) is: "Boilerplate structure created at: <home/desktop/project_name>"
