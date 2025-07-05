@@ -26,16 +26,7 @@ When executed, the script:
    - `README.md`
    - `LICENSE` (MIT with dynamic year)
    - `requirements.txt`
-5. Generates a subfolder `empirical` with the following structure:
-
-empirical/
-├── i_src/
-├── ii_utils/
-├── iii_logs/
-├── iv_static/
-├── v_notebooks/
-├── a_data/
-└── b_tests/
+5. Generates a subfolder `empirical` and within it are the following subdirectories: i_src, ii_utils, iii_logs, iv_static, v_notebooks, a_data, b_tests
 
 6. Adds `__init__.py` to `i_src/` and `ii_utils/` to initialize Python packages
 7. Generates subfolders within the directory 'a_data': raw, processed, versions, final
